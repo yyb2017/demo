@@ -1,0 +1,249 @@
+
+/*传媒案例*/
+#media{
+    background-color: #131313;
+    position: relative;
+    height: 630px;
+    overflow: hidden;
+}
+#media .media_r {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 630px;
+}
+#media .media_banner_list li {
+    float: left;
+}
+#media .media_main>ul{
+    display: none;
+}
+#media .media_main>ul.show {
+    display: block;
+}
+#media .media_banner_list .media_top{
+    padding: 100px 0;
+}
+#media .media_banner_list .media_menu{
+    float: right;
+}
+#media .media_banner_list .media_menu li{    
+    float: left;
+    color: #666666;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-bottom: 2px solid #131313;}
+#media .media_banner_list .media_menu li.active{
+    color: #f13a3a;
+    border-bottom: 2px solid #f13a3a;
+}
+#media .media_main {
+    overflow: hidden;
+    width: 100%;
+    height: 430px;
+}
+#media_banner_list {
+    position: absolute;
+    left: 0;
+    width: 3000px;
+}
+#media .media_main>ul>li {
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin: 0 20px;
+}
+#media .media_main .media_main_img a>img {
+    width: 100%;
+    display: block;
+}
+#media .media_main_con {
+    background-color: #fff;
+    padding: 20px;
+}
+#media .media_main_con h5 {
+    font-size: 16px;
+    line-height: 30px;
+}
+#media .media_main_con p {
+    font-size: 12px;
+    line-height: 30px;
+}
+#media>.fmWrap {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 20px;
+    z-index: 1;   
+    text-align: center; 
+}
+#media>.fmWrap>ul{
+    width: 200px;
+    display: inline-block;
+}
+#media>.fmWrap>ul>li{
+    width: 47px;
+    height: 8px;
+    background-color: #e3e3e3;
+    margin-right: 13px;
+    float: left;
+    cursor: pointer;
+}
+#media>.fmWrap>ul>li.active{
+    background-color: #999999;
+}
+
+/*服务项目*/
+#service{
+    height: 500px;
+    width: 100%;
+    padding: 100px 0 0px;
+    background: rgb(0, 0, 0);
+}
+#service .service_box .service_tab{
+    float: left;
+    margin-right: 70px;
+}
+#service .service_box .service_tab ul>li{
+    display: block;
+    width: 220px;
+    height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 60px;
+    color: #666666;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+#service .service_box .service_tab ul>li.active{
+    color: rgb(255, 255, 255);
+    height: 100px;
+    line-height: 100px;
+    background-color: #2b2b2b;
+}
+#service .service_box .service_img {
+    float: left;
+    margin-right: 40px;
+}
+#service .service_box .service_img img {
+    width: 100%;
+    display: block;
+}
+#service .service_box .service_txt {
+    float: left;
+}
+#service .service_box .service_txt .service_txt_title {
+   
+    padding-top: 30px;
+}
+#service .service_box .service_txt .service_txt_title h3.cn {
+    color: #FFFCFC;
+    font-size: 22px;
+    padding-bottom: 6px;
+}
+#service .service_box .service_txt .service_txt_title h3.en {
+    color: #535355;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+#service .service_box .service_txt .service_txt_con {
+    width: 390px;
+}
+#service .service_box .service_txt .service_txt_con p {
+    font-size: 12px;
+    color: #999999;
+    line-height: 20px;
+}
+#service .service_box .service_txt .service_txt_con a {
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    padding-top: 30px;
+    display: block;
+}
+#service_ol {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#service_ol .show {
+    display: block;
+}
+#service_ol li{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#member {
+    background-color: #131313;
+    padding: 80px 0;
+}
+#member .member_main{
+    overflow: hidden;
+    height: 300px;
+    width: 1110px;
+}
+#member .member_main .member_main_img{
+    width: 216px;
+    height: 300px;
+    float: left;
+    margin-right: 60px;
+}
+#member .member_main .member_main_img img{
+    width: 100%;
+    display: block;
+}
+#member .member_main .member_main_con{
+    float: right;
+    width: 830px;
+    height: 70px;
+}
+#member .member_main .member_main_con h4{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 50px;
+}
+#member .member_main .member_main_con h5{
+    color: rgb(122, 123, 123);
+    padding-top: 10px;
+}
+#member .member_main .member_main_con p{
+    color: rgb(102, 102, 102);
+    padding-top: 40px;
+    line-height: 30px;
+    font-size: 12px;
+}
+#cultural {
+    background:url(../images/cultural_bg.jpg)no-repeat center;
+    width: 100%;
+    height: 585px;
+    position: relative;
+}
+#cultural .cultural_box {
+    position: absolute;
+    width: 500px;
+    right: 180px;
+    top: 160px;
+}
+#cultural .cultural_box h3.cn{
+    float: none;
+    font-size: 26px;
+}
+#cultural .cultural_box h3.en{
+    float: none;
+    padding: 0 0 30px;
+}
+#cultural .cultural_box p{
+    color: rgb(102, 102, 102);
+    line-height: 30px;
+}
