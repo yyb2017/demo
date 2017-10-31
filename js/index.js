@@ -2,7 +2,6 @@
 window.onload = function() {
 	mv.app.toBanner();
 	mv.app.toServiceTab();
-	// mv.app.member();
 	mv.app.media();
 }
 var mv = {};
