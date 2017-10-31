@@ -11,7 +11,6 @@ mv.tools = {};
 mv.ui = {};
 // 应用
 mv.app = {};
-
 // 获取样式
 mv.tools.getStyle = function(obj,attr){
 	if(obj.currentStyle){
